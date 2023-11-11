@@ -1,0 +1,174 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #222;
+    color: #fff;
+}
+
+.header {
+    background-color: #333;
+    padding: 1rem;
+    text-align: center;
+}
+
+.logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar {
+    display: flex;
+    margin-top: 1rem;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+.home {
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.home-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.home h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.home h3 {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.btn-box {
+    margin-top: 2rem;
+}
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    text-decoration: none;
+    background-color: #03d1ff;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.home-sci {
+    margin-top: 2rem;
+}
+
+.home-sci a {
+    color: #03d1ff;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+}
+
+/* Add styles for other sections as needed */
+
+
+.skills-list li, .project li {
+    margin-bottom: 0.5rem;
+}
+
+.contact p {
+    margin-bottom: 1rem;
+}
+
+/* Style links */
+a {
+    color: #03d1ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Add more styles as needed */
+#first>div {
+    width: 38%;
+}
+.leftsection {
+    margin-top: 90px;
+    font-size: 3.8rem;
+    width: max-content;
+}
+
+.rightsection{
+    width:auto;
+    align-items: center;
+}
+.rightsection img {
+    width: 95%;
+    margin: 50px 0px;
+}
+
+.color {
+    color: rgb(140, 88, 189);
+}
+
+#element{
+    color:rgb(90, 199, 90);
+}
+
+.rightsection img{
+    border-radius: 75%;
+}
+
+#first {
+    display: flex;
+    justify-content: space-around;
+    margin: 150px 0;
+}
+
+nav {
+    display: flex;
+    top:0;
+    left:0;
+    width:100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(174, 141, 139);
+}
+nav{
+    position:fixed;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 25px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover{
+    color: gainsboro;
+    font-size: 1.14rem;
+}
+
+.left {
+    font-size: 2rem;
+}
